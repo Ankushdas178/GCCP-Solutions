@@ -2,6 +2,7 @@
 
 > Lab Link : https://google.qwiklabs.com/focuses/10258?parent=catalog
 <h3>Solution:</h3>
+Change the names/numbers in the square brackets [ ] according to the credentials given to you on the left side of the lab.
 <hr>
 
 ### Task 1: Create a project jumphost instance
