@@ -1,4 +1,6 @@
-## * Run the following code lines/blocks one-by-one in the Cloud Shell:
+# Set Up and Configure a Cloud Environment in Google Cloud: Challenge Lab Solution :
+
+## Run the following code lines/blocks one-by-one in the Cloud Shell:
 
 - Firstly Let's Create Environment Variables:
 
