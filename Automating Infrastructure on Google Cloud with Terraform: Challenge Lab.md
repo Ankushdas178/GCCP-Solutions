@@ -1,6 +1,6 @@
+# Automating Infrastructure on Google Cloud with Terraform: Challenge Lab Solution:
 
-
-# Task 1. Create the configuration files
+## Task 1. Create the configuration files
 
 -  **Run in Cloud Shell**
 ```yaml
@@ -112,7 +112,7 @@ module "instances" {
 
 - **Run `terraform init` in Cloud Shell in the root directory to initialize terraform.**
 
-# Task 2. Import infrastructure
+## Task 2. Import infrastructure
 
 - **Next, navigate to modules/instances/instances.tf. Copy the following configuration into the file:**
 ```yaml
@@ -205,7 +205,7 @@ terraform plan
 terraform apply
 ```
 
-# Task 3. Configure a remote backend
+## Task 3. Configure a remote backend
 
 - **Add the following code to the `modules/storage/storage.tf` file**
 ```yaml
@@ -273,7 +273,7 @@ terraform {
 terraform init
 ```
 
-# Task 4. Modify and update infrastructure
+## Task 4. Modify and update infrastructure
 
 - **Navigate to `modules/instances/instances.tf` modify `tf-instance-1` and `tf-instance-2` by changing `machine_type` from `"n1-standard-1"` to `"n1-standard-2"` **
 
@@ -322,7 +322,7 @@ terraform init
 ```yaml
 terraform apply
 ```
-# Task 5. Taint and destroy resources
+## Task 5. Taint and destroy resources
 ```yaml
 terraform taint module.instances.google_compute_instance.Instance_name
 ```
@@ -336,7 +336,7 @@ terraform apply
 ```yaml
 terraform apply
 ```
-# Task 6. Use a module from the Registry
+## Task 6. Use a module from the Registry
 
 - **In the Terraform Registry, browse to the Network Module.**
 
@@ -520,7 +520,7 @@ terraform init
 ```yaml
 terraform apply
 ```
-# Task 6 : Configure a firewall
+## Task 7 : Configure a firewall
 
 - **Add the following resource to the main.tf file and fill in the GCP Project ID:**
 ```yaml
