@@ -1,4 +1,4 @@
-# GCCP-Solutions
+# Google Cloud Career Practitioner Program - Solutions
 Quest challenge lab solutions for GCCP Program.
 <hr>
 
