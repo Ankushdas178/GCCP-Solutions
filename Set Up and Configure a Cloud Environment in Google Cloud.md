@@ -1,4 +1,6 @@
-### Firstly Let's Create Environment Variables:
+## * Run the following code lines/blocks one-by-one in the Cloud Shell:
+
+- Firstly Let's Create Environment Variables:
 
 ```yaml
 export USER_NAME2=
